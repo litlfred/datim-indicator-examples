@@ -1,0 +1,143 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9" version="20150618" displayName="DATIM Disaggregators">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Negative" displayName="Negative" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Positive" displayName="Positive" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="&lt;15" displayName="&lt;15" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="15+" displayName="15+" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="&lt;1" displayName="&lt;1" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="10-14" displayName="10-14" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="1-4" displayName="1-4" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="15-19" displayName="15-19" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="20+" displayName="20+" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="20-24" displayName="20-24" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="25-49" displayName="25-49" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="50+" displayName="50+" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="5-9" displayName="5-9" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="DSD and TA" displayName="DSD and TA" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="TA Only" displayName="TA Only" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="District Hospital" displayName="District Hospital" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Primary Health Care Facility (Public/Private" displayName="Primary Health Care Facility (Public/Private" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Satellite Clinic" displayName="Satellite Clinic" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Secondary Hospital" displayName="Secondary Hospital" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Tertiary Hospital" displayName="Tertiary Hospital" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="&lt;18" displayName="&lt;18" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="18+" displayName="18+" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="15-17" displayName="15-17" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="5-14" displayName="5-14" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Postpartum" displayName="Postpartum" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Pregnant" displayName="Pregnant" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Care and Support" displayName="Care and Support" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="PMTCT" displayName="PMTCT" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Treatment" displayName="Treatment" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="0-9" displayName="0-9" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="18-24" displayName="18-24" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="25+" displayName="25+" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="&lt;10" displayName="&lt;10" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="PEP" displayName="PEP" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Physical and/or Emotional Violence" displayName="Physical and/or Emotional Violence" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Sexual Violence (Post-Rape Care" displayName="Sexual Violence (Post-Rape Care" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="No" displayName="No" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Yes" displayName="Yes" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Community-Level" displayName="Community-Level" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Individual" displayName="Individual" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Small Group" displayName="Small Group" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Rural" displayName="Rural" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Urban" displayName="Urban" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Doctors" displayName="Doctors" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Lab Professionals" displayName="Lab Professionals" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Midwives" displayName="Midwives" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Nurses" displayName="Nurses" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Other Cadre" displayName="Other Cadre" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Social Service Workers" displayName="Social Service Workers" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Antenatal Clinic" displayName="Antenatal Clinic" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="HIV Care and Treatment Clinic" displayName="HIV Care and Treatment Clinic" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Home-based" displayName="Home-based" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Inpatient" displayName="Inpatient" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Labor &amp; Delivery" displayName="Labor &amp; Delivery" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Maternal and Child Health Clinic" displayName="Maternal and Child Health Clinic" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Mobile" displayName="Mobile" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Other Service Delivery Point" displayName="Other Service Delivery Point" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Outpatient Department" displayName="Outpatient Department" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Sexually Transmitted Infections" displayName="Sexually Transmitted Infections" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Tuberculosis" displayName="Tuberculosis" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Under 5 Clinic" displayName="Under 5 Clinic" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Voluntary Counseling &amp; Testing co-located" displayName="Voluntary Counseling &amp; Testing co-located" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Voluntary Counseling &amp; Testing standalone" displayName="Voluntary Counseling &amp; Testing standalone" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Voluntary Medical Male Circumcision" displayName="Voluntary Medical Male Circumcision" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Female PWID" displayName="Female PWID" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="FSW" displayName="FSW" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Male PWID" displayName="Male PWID" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="MSM/TG" displayName="MSM/TG" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Clinical Lab" displayName="Clinical Lab" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="POC Test Site" displayName="POC Test Site" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="6 - 11 months" displayName="6 - 11 months" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="&lt;5" displayName="&lt;5" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Economic Strengthening" displayName="Economic Strengthening" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Education Support" displayName="Education Support" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Other Service Areas" displayName="Other Service Areas" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Parenting/Caregiver Programs" displayName="Parenting/Caregiver Programs" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Social Protection" displayName="Social Protection" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="0 - 11 months" displayName="0 - 11 months" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="12 - 23 months" displayName="12 - 23 months" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="2-4" displayName="2-4" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="AZT" displayName="AZT" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Life-long ART" displayName="Life-long ART" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Already" displayName="Already" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="New" displayName="New" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Single-dose NVP" displayName="Single-dose NVP" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Triple-drug ARV" displayName="Triple-drug ARV" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Infant Test (first between 2 and 12" displayName="Infant Test (first between 2 and 12" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Infant Test Positive Within First Year" displayName="Infant Test Positive Within First Year" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Infant Test within 2 months of birth" displayName="Infant Test within 2 months of birth" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="HIV Infected: Linked to ART" displayName="HIV Infected: Linked to ART" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="HIV Infected: Link to ART Unknown" displayName="HIV Infected: Link to ART Unknown" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="HIV Infected: Not Linked to ART" displayName="HIV Infected: Not Linked to ART" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="HIV-Uninfected: Breastfeeding Unknown" displayName="HIV-Uninfected: Breastfeeding Unknown" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="HIV-Uninfected: Not Breastfeeding" displayName="HIV-Uninfected: Not Breastfeeding" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="HIV-Uninfected: Still Breastfeeding" displayName="HIV-Uninfected: Still Breastfeeding" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Other Outcomes: Died" displayName="Other Outcomes: Died" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Other Outcomes: In Care but No Test Done" displayName="Other Outcomes: In Care but No Test Done" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Other Outcomes: Lost to Follow Up" displayName="Other Outcomes: Lost to Follow Up" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Other Outcomes: Transferred Out" displayName="Other Outcomes: Transferred Out" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Known at Entry Positive" displayName="Known at Entry Positive" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Newly Identified Positive" displayName="Newly Identified Positive" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="20-49" displayName="20-49" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Community-based Intervention" displayName="Community-based Intervention" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="School-based Intervention" displayName="School-based Intervention" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Distribution Plans" displayName="Distribution Plans" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Inventory Management" displayName="Inventory Management" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Perform Quantification" displayName="Perform Quantification" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Supply Chain" displayName="Supply Chain" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Supportive Supervision" displayName="Supportive Supervision" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Pre-service" displayName="Pre-service" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="&lt; 8" displayName="&lt; 8" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="&gt; 8" displayName="&gt; 8" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Cured" displayName="Cured" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Not Evaluated" displayName="Not Evaluated" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Treatment Completed" displayName="Treatment Completed" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Treatment Failed" displayName="Treatment Failed" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="1-14" displayName="1-14" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Breastfeeding" displayName="Breastfeeding" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="0-4" displayName="0-4" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Routine" displayName="Routine" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Targeted" displayName="Targeted" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Detectable" displayName="Detectable" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Undetectable" displayName="Undetectable" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Moderate Device-related AE" displayName="Moderate Device-related AE" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Moderate Intra-operative AE" displayName="Moderate Intra-operative AE" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Moderate Post-operative AE" displayName="Moderate Post-operative AE" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Severe Device-related AE" displayName="Severe Device-related AE" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Severe Intra-operative AE" displayName="Severe Intra-operative AE" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Severe Post-operative AE" displayName="Severe Post-operative AE" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Moderate" displayName="Moderate" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Severe" displayName="Severe" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="1-9" displayName="1-9" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="25-29" displayName="25-29" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="30-49" displayName="30-49" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Unknown" displayName="Unknown" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Device based" displayName="Device based" codeSystem="urn:www.datim.org:disaggregators"/>
+    <svs:Concept code="Surgical Technique" displayName="Surgical Technique" codeSystem="urn:www.datim.org:disaggregators"/>
+  </svs:ConceptList>
+</svs:ValueSet>
