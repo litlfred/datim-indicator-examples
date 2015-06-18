@@ -47,7 +47,7 @@ let $csd_doc :=
 		    <d:disaggregatorSet>
 		      {
 			for $d in $disaggregator_set 
-			return   <d:disaggreator>{$d}</d:disaggreator>
+			return   <d:disaggreator code="{$d}"/>
 		      }
 	            </d:disaggregatorSet>
 		  else ()
