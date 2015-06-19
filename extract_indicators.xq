@@ -36,7 +36,7 @@ let $csd_doc :=
 	    {
               let $disag_sets := 
 	        for $row in $matching_rows
-	        let $disaggregators:= replace(replace($row/s:Cell[3]/s:Data/text(),"^\S*\(",''),"\)\S*",'')
+	        let $disaggregators:= replace(replace(functx:trim($row/s:Cell[3]/s:Data/text()),"^\(",''),"\)$",'')
 		let $disaggregator_set := 
 	 	  for $m in functx:get-matches($disaggregators,"[^,]+")
 		  where not( functx:all-whitespace($m)) and not ($m = 'default')
@@ -78,7 +78,7 @@ let $csd_doc :=
 let $unique_disaggergators := 
   distinct-values(
     for $row in $results_rows
-    let $disaggregators:= replace(replace($row/s:Cell[3]/s:Data/text(),"^\S*\(",''),"\)\S*",'')
+    let $disaggregators:= replace(replace(functx:trim($row/s:Cell[3]/s:Data/text()),"^\(",''),"\)$",'')
     return 
       for $m in functx:get-matches($disaggregators,"[^,]+")
       where not( functx:all-whitespace($m)) and not ($m = 'default')

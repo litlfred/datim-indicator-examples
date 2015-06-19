@@ -954,7 +954,7 @@
           <d:disaggreator code="District Hospital"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
-          <d:disaggreator code="Primary Health Care Facility (Public/Private"/>
+          <d:disaggreator code="Primary Health Care Facility (Public/Private)"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
           <d:disaggreator code="Satellite Clinic"/>
@@ -975,7 +975,7 @@
           <d:disaggreator code="District Hospital"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
-          <d:disaggreator code="Primary Health Care Facility (Public/Private"/>
+          <d:disaggreator code="Primary Health Care Facility (Public/Private)"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
           <d:disaggreator code="Satellite Clinic"/>
@@ -1484,7 +1484,7 @@
           <d:disaggreator code="Physical and/or Emotional Violence"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
-          <d:disaggreator code="Sexual Violence (Post-Rape Care"/>
+          <d:disaggreator code="Sexual Violence (Post-Rape Care)"/>
         </d:disaggregatorSet>
       </csd:extension>
       <csd:record created="2014-12-01T14:00:00+00:00" updated="2014-12-01T14:00:00+00:00" status="Active" sourceDirectory="http://www.datim.org"/>
@@ -1549,7 +1549,7 @@
           <d:disaggreator code="Physical and/or Emotional Violence"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
-          <d:disaggreator code="Sexual Violence (Post-Rape Care"/>
+          <d:disaggreator code="Sexual Violence (Post-Rape Care)"/>
         </d:disaggregatorSet>
       </csd:extension>
       <csd:record created="2014-12-01T14:00:00+00:00" updated="2014-12-01T14:00:00+00:00" status="Active" sourceDirectory="http://www.datim.org"/>
@@ -5275,7 +5275,7 @@
       <csd:codedType assigningAuthorityName="urn:www.datim.org:dataelement" code="PMTCT_EID_N_DSD_InfantTest">PMTCT_EID (N, DSD, InfantTest): Infant Testing</csd:codedType>
       <csd:extension urn="urn:www.datim.org" type="Disaggregators">
         <d:disaggregatorSet>
-          <d:disaggreator code="Infant Test (first between 2 and 12"/>
+          <d:disaggreator code="Infant Test (first) between 2 and 12"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
           <d:disaggreator code="Infant Test Positive Within First Year"/>
@@ -5294,7 +5294,7 @@
       <csd:codedType assigningAuthorityName="urn:www.datim.org:dataelement" code="PMTCT_EID_N_TA_InfantTest">PMTCT_EID (N, TA, InfantTest): Infant Testing</csd:codedType>
       <csd:extension urn="urn:www.datim.org" type="Disaggregators">
         <d:disaggregatorSet>
-          <d:disaggreator code="Infant Test (first between 2 and 12"/>
+          <d:disaggreator code="Infant Test (first) between 2 and 12"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
           <d:disaggreator code="Infant Test Positive Within First Year"/>
@@ -5870,7 +5870,7 @@
           <d:disaggreator code="District Hospital"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
-          <d:disaggreator code="Primary Health Care Facility (Public/Private"/>
+          <d:disaggreator code="Primary Health Care Facility (Public/Private)"/>
         </d:disaggregatorSet>
         <d:disaggregatorSet>
           <d:disaggreator code="Satellite Clinic"/>
