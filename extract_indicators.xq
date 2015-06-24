@@ -9,14 +9,18 @@ declare namespace svs = "urn:ihe:iti:svs:2008";
 import module namespace uuid = "https://github.com/openhie/openinfoman-datim/uuid" at "uuid.xqm";
 import module namespace functx = "http://www.functx.com";
 
-let $targets_table := doc("DATIM MER Indicators List.xml")/s:Workbook/s:Worksheet[1]/s:Table 
-let $results_table := doc("DATIM MER Indicators List.xml")/s:Workbook/s:Worksheet[2]/s:Table 
+let $doc := doc("IndicatorList_June23.xml")
+let $results_table := $doc/s:Workbook/s:Worksheet[1]/s:Table 
 
 let $results_header := $results_table/s:Row[1] 
 let $results_rows := $results_table/s:Row[position() > 1] 
 
-let $data_elements := $results_rows/s:Cell[2]/s:Data
-let $unique_data_elements := distinct-values($data_elements/text())
+let $pepfar_codes := distinct-values($results_rows/s:Cell[1]/s:Data/text())
+let $datim_codes := $results_rows/s:Cell[4]/s:Data
+let $unique_datim_codes := distinct-values($datim_codes/text())
+
+let $time := current-dateTime()
+
 
 let $datim_uuid_namespace := "63051732-c77c-466e-9ce1-03c1755b1765"  
 let $disag_oid := "1.2.3.4.5.7.8.9" (: Obviously fake:)
@@ -26,42 +30,39 @@ let $csd_doc :=
     <csd:organizationDirectory/>
     <csd:serviceDirectory>
       {
-	for $code in $unique_data_elements 	
-	let $matching_rows := $data_elements[text() = $code]/../..
-	let $desc := $matching_rows[1]/s:Cell[1]/s:Data/text()
-	let $uuid := uuid:generate($code,$datim_uuid_namespace)
+	for $code in $unique_datim_codes
+	let $matching_rows := $datim_codes[text() = $code]/../..
+	let $pepfar_code := $matching_rows[1]/s:Cell[1]/s:Data/text() 
+	let $desc := $matching_rows[1]/s:Cell[3]/s:Data/text() 
+	let $type := $matching_rows[1]/s:Cell[5]/s:Data/text() 
+	let $svc_type := $matching_rows[1]/s:Cell[6]/s:Data/text() 
+	let $disag_type := $matching_rows[1]/s:Cell[7]/s:Data/text() 
+	let $disag_val := $matching_rows[1]/s:Cell[8]/s:Data/text() 
+	let $rcode := replace($code,'/','_')
+	let $uuid := uuid:generate($rcode,$datim_uuid_namespace)
+	let $pf_cps := for $cp in string-to-codepoints($pepfar_code) return string($cp)
 	return 
 	  <csd:service entityID="urn:uuid:{$uuid}">
-	    <csd:codedType assigningAuthorityName="urn:www.datim.org:dataelement" code="{$code}">{$desc}</csd:codedType>
+	    <csd:codedType assigningAuthorityName="urn:www.datim.org:data-element" code="{$rcode}">{$desc}</csd:codedType>
+	    <csd:codedType assigningAuthorityName="urn:www.datim.org:pepfar-code" code="{$pepfar_code}"/>
+	    <csd:codedType assigningAuthorityName="urn:www.datim.org:type" code="{$type}"/>
+	    <csd:codedType assigningAuthorityName="urn:www.datim.org:service-type" code="{$svc_type}"/>
 	    {
-              let $disag_sets := 
-	        for $row in $matching_rows
-	        let $disaggregators:= replace(replace(functx:trim($row/s:Cell[3]/s:Data/text()),"^\(",''),"\)$",'')
-		let $disaggregator_set := 
-	 	  for $m in functx:get-matches($disaggregators,"[^,]+")
-		  where not( functx:all-whitespace($m)) and not ($m = 'default')
-		  return normalize-space($m)
-		return
-		  if (count($disaggregator_set) > 0)
-		  then 		 
-		    <d:disaggregatorSet>
-		      {
-			for $d in $disaggregator_set 
-			return   <d:disaggreator code="{$d}"/>
-		      }
-	            </d:disaggregatorSet>
-		  else ()
-	      return
-               if (count($disag_sets) > 0) 
-		then 	  
-		  <csd:extension urn="urn:www.datim.org" type="Disaggregators">
-		    {$disag_sets}
+	      if (  not($disag_type = 'N/A') and not($disag_val = '(default)'))
+	      then
+		  <csd:extension urn="urn:www.datim.org" type="disaggregation">
+		    {
+		      for $d in tokenize($disag_type,'_')
+		      let $cps := for $cp in string-to-codepoints($d) return string($cp)
+		      let $c_oid := concat($disag_oid , '.' , string-join($pf_cps) , '.' , string-join($cps))
+		      return <d:disaggregatorSet concept="{$d}" id="{$c_oid}"/>
+		    }
 		  </csd:extension>
-		else ()
+	      else ()
             }
             <csd:record 
-	      created="2014-12-01T14:00:00+00:00"
-	      updated="2014-12-01T14:00:00+00:00" 
+	      created="{$time}"
+	      updated="{$time}" 
 	      status="Active"
 	      sourceDirectory="http://www.datim.org"/>
 	  </csd:service>
@@ -74,29 +75,54 @@ let $csd_doc :=
 
 
 
+let $disag_codes := distinct-values(for $t in $results_rows/s:Cell[7]/s:Data/text() return tokenize($t,'_'))
+let $date := replace(substring-before(string($time),'T'),'-','')
 
-let $unique_disaggergators := 
-  distinct-values(
-    for $row in $results_rows
-    let $disaggregators:= replace(replace(functx:trim($row/s:Cell[3]/s:Data/text()),"^\(",''),"\)$",'')
-    return 
-      for $m in functx:get-matches($disaggregators,"[^,]+")
-      where not( functx:all-whitespace($m)) and not ($m = 'default')
-      return normalize-space($m)
+let $disag_rows := $results_rows[
+  not(  s:Cell[7]/s:Data/text()  = 'N/A')
+  and not (  s:Cell[7]/s:Data/text()  = '(default)')
+  ]
+
+let $disag_docs := map:merge(
+  for $code in $pepfar_codes
+  let $codes := distinct-values($disag_rows[s:Cell[1]/s:Data/text() = $code]/s:Cell[4]/s:Data/text())
+  let $matching_rows := $results_rows[s:Cell[4]/s:Data/text() = $codes]
+  let $disag_vals :=  
+	    for $m in $matching_rows
+	    let $disag_types := tokenize($m/s:Cell[7]/s:Data/text(),'_')
+	    for $type at $p in $disag_types
+              let $disaggregators:= replace(replace(functx:trim($m/s:Cell[8]/s:Data/text()),"^\(",''),"\)$",'')
+              let $disaggregator_set := 
+                for $v in functx:get-matches($disaggregators,"[^,]+")
+		return normalize-space($v)
+            let $val := $disaggregator_set[$p]
+            return <val type="{$type}">{$val}</val>
+  
+  return 
+    for $type in distinct-values($disag_vals/@type)
+      let $cps := for $cp in string-to-codepoints($type) return string($cp)
+      let $pf_cps := for $cp in string-to-codepoints($code) return string($cp)
+      let $c_oid := concat($disag_oid , '.' , string-join($pf_cps) , '.' , string-join($cps))
+      return	map{ 
+        concat($type,'-',$code) :
+          <svs:ValueSet  xmlns:svs="urn:ihe:iti:svs:2008" id="{$c_oid}" version="{$date}" displayName="DATIM disaggregator for {$type} on {$code}">
+	    <svs:ConceptList xml:lang="en-US" >
+	    {
+	     for $t in distinct-values($disag_vals[@type = $type]/text())
+	     return <svs:Concept code="{$t}" displayName="{$t}" codeSystem="urn:www.datim.org:disaggregators:{$code}:{$type}"/>
+	    }
+	  </svs:ConceptList>
+         </svs:ValueSet>
+        }
+
+  
   )
 
-let $disag_doc :=	
-  <svs:ValueSet  xmlns:svs="urn:ihe:iti:svs:2008" id="{$disag_oid}" version="20150618" displayName="DATIM Disaggregators">
-    <svs:ConceptList xml:lang="en-US">
-      {
-	for $disaggergator in $unique_disaggergators 
-	return <svs:Concept code="{$disaggergator}" displayName="{$disaggergator}" codeSystem="urn:www.datim.org:disaggregators"/>
-      }
-    </svs:ConceptList>
-  </svs:ValueSet>
+  return 
+    (
+      file:write('csd_indicators.xml',$csd_doc)
+      , 
+      for $k in map:keys($disag_docs)
+      return file:write(concat('./disaggregators/' , $k,'.xml'),map:get($disag_docs,$k))
 
-return 
-  (
-    file:write('csd_indicators.xml',$csd_doc)
-    ,file:write('disaggreators.xml',$disag_doc)
   )
