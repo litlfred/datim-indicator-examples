@@ -4,7 +4,5 @@
     <svs:Concept code="15-19" displayName="15-19" codeSystem="urn:www.datim.org:disaggregators:PMTCT_STAT:Age"/>
     <svs:Concept code="20-24" displayName="20-24" codeSystem="urn:www.datim.org:disaggregators:PMTCT_STAT:Age"/>
     <svs:Concept code="25+" displayName="25+" codeSystem="urn:www.datim.org:disaggregators:PMTCT_STAT:Age"/>
-    <svs:Concept code="Known at Entry Positive" displayName="Known at Entry Positive" codeSystem="urn:www.datim.org:disaggregators:PMTCT_STAT:Age"/>
-    <svs:Concept code="Newly Identified Positive" displayName="Newly Identified Positive" codeSystem="urn:www.datim.org:disaggregators:PMTCT_STAT:Age"/>
   </svs:ConceptList>
 </svs:ValueSet>

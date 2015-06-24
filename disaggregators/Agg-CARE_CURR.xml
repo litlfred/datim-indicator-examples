@@ -1,6 +1,3 @@
 <svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.676582699567858282.65103103" version="20150624" displayName="DATIM disaggregator for Agg on CARE_CURR">
-  <svs:ConceptList xml:lang="en-US">
-    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:CARE_CURR:Agg"/>
-    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:CARE_CURR:Agg"/>
-  </svs:ConceptList>
+  <svs:ConceptList xml:lang="en-US"/>
 </svs:ValueSet>

@@ -1,6 +1,9 @@
 <svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.7986679583698286.8310111411810599101" version="20150624" displayName="DATIM disaggregator for Service on OVC_SERV">
   <svs:ConceptList xml:lang="en-US">
-    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:OVC_SERV:Service"/>
-    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:OVC_SERV:Service"/>
+    <svs:Concept code="Economic Strengthening" displayName="Economic Strengthening" codeSystem="urn:www.datim.org:disaggregators:OVC_SERV:Service"/>
+    <svs:Concept code="Education Support" displayName="Education Support" codeSystem="urn:www.datim.org:disaggregators:OVC_SERV:Service"/>
+    <svs:Concept code="Other Service Areas" displayName="Other Service Areas" codeSystem="urn:www.datim.org:disaggregators:OVC_SERV:Service"/>
+    <svs:Concept code="Parenting/Caregiver Programs" displayName="Parenting/Caregiver Programs" codeSystem="urn:www.datim.org:disaggregators:OVC_SERV:Service"/>
+    <svs:Concept code="Social Protection" displayName="Social Protection" codeSystem="urn:www.datim.org:disaggregators:OVC_SERV:Service"/>
   </svs:ConceptList>
 </svs:ValueSet>

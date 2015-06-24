@@ -1,5 +1,11 @@
 <svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.84669579858467797769.83101120" version="20150624" displayName="DATIM disaggregator for Sex on TB_OUTCOME">
   <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Cured" displayName="Cured" codeSystem="urn:www.datim.org:disaggregators:TB_OUTCOME:Sex"/>
+    <svs:Concept code="Not Evaluated" displayName="Not Evaluated" codeSystem="urn:www.datim.org:disaggregators:TB_OUTCOME:Sex"/>
+    <svs:Concept code="Other Outcomes: Died" displayName="Other Outcomes: Died" codeSystem="urn:www.datim.org:disaggregators:TB_OUTCOME:Sex"/>
+    <svs:Concept code="Other Outcomes: Lost to Follow Up" displayName="Other Outcomes: Lost to Follow Up" codeSystem="urn:www.datim.org:disaggregators:TB_OUTCOME:Sex"/>
+    <svs:Concept code="Treatment Completed" displayName="Treatment Completed" codeSystem="urn:www.datim.org:disaggregators:TB_OUTCOME:Sex"/>
+    <svs:Concept code="Treatment Failed" displayName="Treatment Failed" codeSystem="urn:www.datim.org:disaggregators:TB_OUTCOME:Sex"/>
     <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:TB_OUTCOME:Sex"/>
     <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:TB_OUTCOME:Sex"/>
   </svs:ConceptList>

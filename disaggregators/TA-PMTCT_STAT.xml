@@ -1,6 +1,3 @@
 <svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.80778467849583846584.8465" version="20150624" displayName="DATIM disaggregator for TA on PMTCT_STAT">
-  <svs:ConceptList xml:lang="en-US">
-    <svs:Concept code="Known at Entry Positive" displayName="Known at Entry Positive" codeSystem="urn:www.datim.org:disaggregators:PMTCT_STAT:TA"/>
-    <svs:Concept code="Newly Identified Positive" displayName="Newly Identified Positive" codeSystem="urn:www.datim.org:disaggregators:PMTCT_STAT:TA"/>
-  </svs:ConceptList>
+  <svs:ConceptList xml:lang="en-US"/>
 </svs:ValueSet>

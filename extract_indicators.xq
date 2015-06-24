@@ -94,6 +94,7 @@ let $disag_docs := map:merge(
               let $disaggregators:= replace(replace(functx:trim($m/s:Cell[8]/s:Data/text()),"^\(",''),"\)$",'')
               let $disaggregator_set := 
                 for $v in functx:get-matches($disaggregators,"[^,]+")
+		where not(functx:all-whitespace($v))
 		return normalize-space($v)
             let $val := $disaggregator_set[$p]
             return <val type="{$type}">{$val}</val>

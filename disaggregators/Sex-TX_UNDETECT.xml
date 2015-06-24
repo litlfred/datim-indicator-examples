@@ -1,3 +1,6 @@
 <svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.8488958578686984696784.83101120" version="20150624" displayName="DATIM disaggregator for Sex on TX_UNDETECT">
-  <svs:ConceptList xml:lang="en-US"/>
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:TX_UNDETECT:Sex"/>
+    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:TX_UNDETECT:Sex"/>
+  </svs:ConceptList>
 </svs:ValueSet>

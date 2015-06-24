@@ -1,6 +1,21 @@
 <svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.72846795848384.82101115117108116" version="20150624" displayName="DATIM disaggregator for Result on HTC_TST">
   <svs:ConceptList xml:lang="en-US">
-    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
-    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Negative" displayName="Negative" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Positive" displayName="Positive" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Antenatal Clinic" displayName="Antenatal Clinic" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="HIV Care and Treatment Clinic" displayName="HIV Care and Treatment Clinic" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Home-based" displayName="Home-based" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Inpatient" displayName="Inpatient" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Labor &amp; Delivery" displayName="Labor &amp; Delivery" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Maternal and Child Health Clinic" displayName="Maternal and Child Health Clinic" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Mobile" displayName="Mobile" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Other Service Delivery Point" displayName="Other Service Delivery Point" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Outpatient Department" displayName="Outpatient Department" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Sexually Transmitted Infections" displayName="Sexually Transmitted Infections" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Tuberculosis" displayName="Tuberculosis" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Under 5 Clinic" displayName="Under 5 Clinic" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Voluntary Counseling &amp; Testing co-located" displayName="Voluntary Counseling &amp; Testing co-located" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Voluntary Counseling &amp; Testing standalone" displayName="Voluntary Counseling &amp; Testing standalone" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
+    <svs:Concept code="Voluntary Medical Male Circumcision" displayName="Voluntary Medical Male Circumcision" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Result"/>
   </svs:ConceptList>
 </svs:ValueSet>
