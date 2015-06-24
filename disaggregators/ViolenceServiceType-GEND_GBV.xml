@@ -1,0 +1,7 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.7169786895716686.8610511110810111099101831011141181059910184121112101" version="20150624" displayName="DATIM disaggregator for ViolenceServiceType on GEND_GBV">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="PEP" displayName="PEP" codeSystem="urn:www.datim.org:disaggregators:GEND_GBV:ViolenceServiceType"/>
+    <svs:Concept code="Physical and/or Emotional Violence" displayName="Physical and/or Emotional Violence" codeSystem="urn:www.datim.org:disaggregators:GEND_GBV:ViolenceServiceType"/>
+    <svs:Concept code="Sexual Violence (Post-Rape Care)" displayName="Sexual Violence (Post-Rape Care)" codeSystem="urn:www.datim.org:disaggregators:GEND_GBV:ViolenceServiceType"/>
+  </svs:ConceptList>
+</svs:ValueSet>

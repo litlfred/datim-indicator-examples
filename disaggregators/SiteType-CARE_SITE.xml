@@ -1,0 +1,9 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.676582699583738469.8310511610184121112101" version="20150624" displayName="DATIM disaggregator for SiteType on CARE_SITE">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="District Hospital" displayName="District Hospital" codeSystem="urn:www.datim.org:disaggregators:CARE_SITE:SiteType"/>
+    <svs:Concept code="Primary Health Care Facility (Public/Private)" displayName="Primary Health Care Facility (Public/Private)" codeSystem="urn:www.datim.org:disaggregators:CARE_SITE:SiteType"/>
+    <svs:Concept code="Satellite Clinic" displayName="Satellite Clinic" codeSystem="urn:www.datim.org:disaggregators:CARE_SITE:SiteType"/>
+    <svs:Concept code="Secondary Hospital" displayName="Secondary Hospital" codeSystem="urn:www.datim.org:disaggregators:CARE_SITE:SiteType"/>
+    <svs:Concept code="Tertiary Hospital" displayName="Tertiary Hospital" codeSystem="urn:www.datim.org:disaggregators:CARE_SITE:SiteType"/>
+  </svs:ConceptList>
+</svs:ValueSet>

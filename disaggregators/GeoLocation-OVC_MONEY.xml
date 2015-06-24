@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.798667957779786989.71101111761119997116105111110" version="20150624" displayName="DATIM disaggregator for GeoLocation on OVC_MONEY">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Rural" displayName="Rural" codeSystem="urn:www.datim.org:disaggregators:OVC_MONEY:GeoLocation"/>
+    <svs:Concept code="Urban" displayName="Urban" codeSystem="urn:www.datim.org:disaggregators:OVC_MONEY:GeoLocation"/>
+  </svs:ConceptList>
+</svs:ValueSet>

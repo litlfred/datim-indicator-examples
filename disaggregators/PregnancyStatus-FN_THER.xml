@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.70789584726982.8011410110311097110991218311697116117115" version="20150624" displayName="DATIM disaggregator for PregnancyStatus on FN_THER">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Postpartum" displayName="Postpartum" codeSystem="urn:www.datim.org:disaggregators:FN_THER:PregnancyStatus"/>
+    <svs:Concept code="Pregnant" displayName="Pregnant" codeSystem="urn:www.datim.org:disaggregators:FN_THER:PregnancyStatus"/>
+  </svs:ConceptList>
+</svs:ValueSet>

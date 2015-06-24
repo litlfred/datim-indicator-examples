@@ -1,0 +1,8 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.75809580826986.7510112180111112" version="20150624" displayName="DATIM disaggregator for KeyPop on KP_PREV">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Female PWID" displayName="Female PWID" codeSystem="urn:www.datim.org:disaggregators:KP_PREV:KeyPop"/>
+    <svs:Concept code="FSW" displayName="FSW" codeSystem="urn:www.datim.org:disaggregators:KP_PREV:KeyPop"/>
+    <svs:Concept code="Male PWID" displayName="Male PWID" codeSystem="urn:www.datim.org:disaggregators:KP_PREV:KeyPop"/>
+    <svs:Concept code="MSM/TG" displayName="MSM/TG" codeSystem="urn:www.datim.org:disaggregators:KP_PREV:KeyPop"/>
+  </svs:ConceptList>
+</svs:ValueSet>

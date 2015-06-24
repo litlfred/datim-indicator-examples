@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.72846795848384.65103103" version="20150624" displayName="DATIM disaggregator for Agg on HTC_TST">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Agg"/>
+    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:HTC_TST:Agg"/>
+  </svs:ConceptList>
+</svs:ValueSet>

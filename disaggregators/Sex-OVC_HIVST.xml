@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.798667957273868384.83101120" version="20150624" displayName="DATIM disaggregator for Sex on OVC_HIVST">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:OVC_HIVST:Sex"/>
+    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:OVC_HIVST:Sex"/>
+  </svs:ConceptList>
+</svs:ValueSet>

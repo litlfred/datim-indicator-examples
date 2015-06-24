@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.846695658284.658284" version="20150624" displayName="DATIM disaggregator for ART on TB_ART">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="&lt; 8" displayName="&lt; 8" codeSystem="urn:www.datim.org:disaggregators:TB_ART:ART"/>
+    <svs:Concept code="&gt; 8" displayName="&gt; 8" codeSystem="urn:www.datim.org:disaggregators:TB_ART:ART"/>
+  </svs:ConceptList>
+</svs:ValueSet>

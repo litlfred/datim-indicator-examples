@@ -1,0 +1,10 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.7282729568697883.75101121" version="20150624" displayName="DATIM disaggregator for Key on HRH_DENS">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Doctors" displayName="Doctors" codeSystem="urn:www.datim.org:disaggregators:HRH_DENS:Key"/>
+    <svs:Concept code="Lab Professionals" displayName="Lab Professionals" codeSystem="urn:www.datim.org:disaggregators:HRH_DENS:Key"/>
+    <svs:Concept code="Midwives" displayName="Midwives" codeSystem="urn:www.datim.org:disaggregators:HRH_DENS:Key"/>
+    <svs:Concept code="Nurses" displayName="Nurses" codeSystem="urn:www.datim.org:disaggregators:HRH_DENS:Key"/>
+    <svs:Concept code="Other Cadre" displayName="Other Cadre" codeSystem="urn:www.datim.org:disaggregators:HRH_DENS:Key"/>
+    <svs:Concept code="Social Service Workers" displayName="Social Service Workers" codeSystem="urn:www.datim.org:disaggregators:HRH_DENS:Key"/>
+  </svs:ConceptList>
+</svs:ValueSet>

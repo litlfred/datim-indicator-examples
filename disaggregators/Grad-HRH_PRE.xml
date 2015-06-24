@@ -1,0 +1,10 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.72827295808269.7111497100" version="20150624" displayName="DATIM disaggregator for Grad on HRH_PRE">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Doctors" displayName="Doctors" codeSystem="urn:www.datim.org:disaggregators:HRH_PRE:Grad"/>
+    <svs:Concept code="Lab Professionals" displayName="Lab Professionals" codeSystem="urn:www.datim.org:disaggregators:HRH_PRE:Grad"/>
+    <svs:Concept code="Midwives" displayName="Midwives" codeSystem="urn:www.datim.org:disaggregators:HRH_PRE:Grad"/>
+    <svs:Concept code="Nurses" displayName="Nurses" codeSystem="urn:www.datim.org:disaggregators:HRH_PRE:Grad"/>
+    <svs:Concept code="Other Cadre" displayName="Other Cadre" codeSystem="urn:www.datim.org:disaggregators:HRH_PRE:Grad"/>
+    <svs:Concept code="Social Service Workers" displayName="Social Service Workers" codeSystem="urn:www.datim.org:disaggregators:HRH_PRE:Grad"/>
+  </svs:ConceptList>
+</svs:ValueSet>

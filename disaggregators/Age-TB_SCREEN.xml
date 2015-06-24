@@ -1,0 +1,15 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.846695836782696978.65103101" version="20150624" displayName="DATIM disaggregator for Age on TB_SCREEN">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="&lt;1" displayName="&lt;1" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="&lt;15" displayName="&lt;15" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="10-14" displayName="10-14" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="1-4" displayName="1-4" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="15+" displayName="15+" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="15-19" displayName="15-19" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="20+" displayName="20+" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="20-24" displayName="20-24" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="25-49" displayName="25-49" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="50+" displayName="50+" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+    <svs:Concept code="5-9" displayName="5-9" codeSystem="urn:www.datim.org:disaggregators:TB_SCREEN:Age"/>
+  </svs:ConceptList>
+</svs:ValueSet>

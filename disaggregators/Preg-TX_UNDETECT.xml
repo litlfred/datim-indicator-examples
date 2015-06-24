@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.8488958578686984696784.80114101103" version="20150624" displayName="DATIM disaggregator for Preg on TX_UNDETECT">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Breastfeeding" displayName="Breastfeeding" codeSystem="urn:www.datim.org:disaggregators:TX_UNDETECT:Preg"/>
+    <svs:Concept code="Pregnant" displayName="Pregnant" codeSystem="urn:www.datim.org:disaggregators:TX_UNDETECT:Preg"/>
+  </svs:ConceptList>
+</svs:ValueSet>

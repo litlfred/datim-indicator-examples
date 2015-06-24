@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.867777679567738267.7011110810811111985112" version="20150624" displayName="DATIM disaggregator for FollowUp on VMMC_CIRC">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="No" displayName="No" codeSystem="urn:www.datim.org:disaggregators:VMMC_CIRC:FollowUp"/>
+    <svs:Concept code="Yes" displayName="Yes" codeSystem="urn:www.datim.org:disaggregators:VMMC_CIRC:FollowUp"/>
+  </svs:ConceptList>
+</svs:ValueSet>

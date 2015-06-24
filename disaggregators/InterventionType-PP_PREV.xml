@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.80809580826986.7311011610111411810111011610511111084121112101" version="20150624" displayName="DATIM disaggregator for InterventionType on PP_PREV">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Community-based Intervention" displayName="Community-based Intervention" codeSystem="urn:www.datim.org:disaggregators:PP_PREV:InterventionType"/>
+    <svs:Concept code="School-based Intervention" displayName="School-based Intervention" codeSystem="urn:www.datim.org:disaggregators:PP_PREV:InterventionType"/>
+  </svs:ConceptList>
+</svs:ValueSet>

@@ -1,0 +1,12 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.84889567858282.65103101" version="20150624" displayName="DATIM disaggregator for Age on TX_CURR">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="&lt;1" displayName="&lt;1" codeSystem="urn:www.datim.org:disaggregators:TX_CURR:Age"/>
+    <svs:Concept code="&lt;15" displayName="&lt;15" codeSystem="urn:www.datim.org:disaggregators:TX_CURR:Age"/>
+    <svs:Concept code="1-4" displayName="1-4" codeSystem="urn:www.datim.org:disaggregators:TX_CURR:Age"/>
+    <svs:Concept code="15+" displayName="15+" codeSystem="urn:www.datim.org:disaggregators:TX_CURR:Age"/>
+    <svs:Concept code="15-19" displayName="15-19" codeSystem="urn:www.datim.org:disaggregators:TX_CURR:Age"/>
+    <svs:Concept code="20+" displayName="20+" codeSystem="urn:www.datim.org:disaggregators:TX_CURR:Age"/>
+    <svs:Concept code="5-14" displayName="5-14" codeSystem="urn:www.datim.org:disaggregators:TX_CURR:Age"/>
+    <svs:Concept code="1-14" displayName="1-14" codeSystem="urn:www.datim.org:disaggregators:TX_CURR:Age"/>
+  </svs:ConceptList>
+</svs:ValueSet>

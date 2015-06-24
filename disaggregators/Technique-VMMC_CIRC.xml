@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.867777679567738267.8410199104110105113117101" version="20150624" displayName="DATIM disaggregator for Technique on VMMC_CIRC">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Device based" displayName="Device based" codeSystem="urn:www.datim.org:disaggregators:VMMC_CIRC:Technique"/>
+    <svs:Concept code="Surgical Technique" displayName="Surgical Technique" codeSystem="urn:www.datim.org:disaggregators:VMMC_CIRC:Technique"/>
+  </svs:ConceptList>
+</svs:ValueSet>

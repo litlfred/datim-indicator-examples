@@ -1,0 +1,7 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.70807378849583738469.83101114118" version="20150624" displayName="DATIM disaggregator for Serv on FPINT_SITE">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Care and Support" displayName="Care and Support" codeSystem="urn:www.datim.org:disaggregators:FPINT_SITE:Serv"/>
+    <svs:Concept code="PMTCT" displayName="PMTCT" codeSystem="urn:www.datim.org:disaggregators:FPINT_SITE:Serv"/>
+    <svs:Concept code="Treatment" displayName="Treatment" codeSystem="urn:www.datim.org:disaggregators:FPINT_SITE:Serv"/>
+  </svs:ConceptList>
+</svs:ValueSet>

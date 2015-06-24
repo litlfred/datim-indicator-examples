@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.676582699567797777.65103101" version="20150624" displayName="DATIM disaggregator for Age on CARE_COMM">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:CARE_COMM:Age"/>
+    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:CARE_COMM:Age"/>
+  </svs:ConceptList>
+</svs:ValueSet>

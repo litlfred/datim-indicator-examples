@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.76656695676580.841011151161051101038310511610184121112101" version="20150624" displayName="DATIM disaggregator for TestingSiteType on LAB_CAP">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Clinical Lab" displayName="Clinical Lab" codeSystem="urn:www.datim.org:disaggregators:LAB_CAP:TestingSiteType"/>
+    <svs:Concept code="POC Test Site" displayName="POC Test Site" codeSystem="urn:www.datim.org:disaggregators:LAB_CAP:TestingSiteType"/>
+  </svs:ConceptList>
+</svs:ValueSet>

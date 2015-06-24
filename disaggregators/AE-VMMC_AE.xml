@@ -1,0 +1,12 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.86777767956569.6569" version="20150624" displayName="DATIM disaggregator for AE on VMMC_AE">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Moderate Device-related AE" displayName="Moderate Device-related AE" codeSystem="urn:www.datim.org:disaggregators:VMMC_AE:AE"/>
+    <svs:Concept code="Moderate Intra-operative AE" displayName="Moderate Intra-operative AE" codeSystem="urn:www.datim.org:disaggregators:VMMC_AE:AE"/>
+    <svs:Concept code="Moderate Post-operative AE" displayName="Moderate Post-operative AE" codeSystem="urn:www.datim.org:disaggregators:VMMC_AE:AE"/>
+    <svs:Concept code="Severe Device-related AE" displayName="Severe Device-related AE" codeSystem="urn:www.datim.org:disaggregators:VMMC_AE:AE"/>
+    <svs:Concept code="Severe Intra-operative AE" displayName="Severe Intra-operative AE" codeSystem="urn:www.datim.org:disaggregators:VMMC_AE:AE"/>
+    <svs:Concept code="Severe Post-operative AE" displayName="Severe Post-operative AE" codeSystem="urn:www.datim.org:disaggregators:VMMC_AE:AE"/>
+    <svs:Concept code="Moderate" displayName="Moderate" codeSystem="urn:www.datim.org:disaggregators:VMMC_AE:AE"/>
+    <svs:Concept code="Severe" displayName="Severe" codeSystem="urn:www.datim.org:disaggregators:VMMC_AE:AE"/>
+  </svs:ConceptList>
+</svs:ValueSet>

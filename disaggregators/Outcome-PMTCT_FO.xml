@@ -1,0 +1,14 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.8077846784957079.7911711699111109101" version="20150624" displayName="DATIM disaggregator for Outcome on PMTCT_FO">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="HIV Infected: Link to ART Unknown" displayName="HIV Infected: Link to ART Unknown" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="HIV Infected: Linked to ART" displayName="HIV Infected: Linked to ART" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="HIV Infected: Not Linked to ART" displayName="HIV Infected: Not Linked to ART" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="HIV-Uninfected: Breastfeeding Unknown" displayName="HIV-Uninfected: Breastfeeding Unknown" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="HIV-Uninfected: Not Breastfeeding" displayName="HIV-Uninfected: Not Breastfeeding" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="HIV-Uninfected: Still Breastfeeding" displayName="HIV-Uninfected: Still Breastfeeding" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="Other Outcomes: Died" displayName="Other Outcomes: Died" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="Other Outcomes: In Care but No Test Done" displayName="Other Outcomes: In Care but No Test Done" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="Other Outcomes: Lost to Follow Up" displayName="Other Outcomes: Lost to Follow Up" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+    <svs:Concept code="Other Outcomes: Transferred Out" displayName="Other Outcomes: Transferred Out" codeSystem="urn:www.datim.org:disaggregators:PMTCT_FO:Outcome"/>
+  </svs:ConceptList>
+</svs:ValueSet>

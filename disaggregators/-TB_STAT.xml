@@ -1,0 +1,15 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.84669583846584." version="20150624" displayName="DATIM disaggregator for  on TB_STAT">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="default" displayName="default" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="&lt;1" displayName="&lt;1" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="10-14" displayName="10-14" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="1-4" displayName="1-4" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="15-19" displayName="15-19" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="20+" displayName="20+" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="5-9" displayName="5-9" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="Negative" displayName="Negative" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="Positive" displayName="Positive" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="Female" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+    <svs:Concept code="Male" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:TB_STAT:"/>
+  </svs:ConceptList>
+</svs:ValueSet>

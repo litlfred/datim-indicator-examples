@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.8488958578686984696784.8410111511673110100105999711610511111041" version="20150624" displayName="DATIM disaggregator for TestIndication) on TX_UNDETECT">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Routine" displayName="Routine" codeSystem="urn:www.datim.org:disaggregators:TX_UNDETECT:TestIndication)"/>
+    <svs:Concept code="Targeted" displayName="Targeted" codeSystem="urn:www.datim.org:disaggregators:TX_UNDETECT:TestIndication)"/>
+  </svs:ConceptList>
+</svs:ValueSet>

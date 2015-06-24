@@ -1,0 +1,7 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.716978689578798277.659911610511810511612176101118101108" version="20150624" displayName="DATIM disaggregator for ActivityLevel on GEND_NORM">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Community-Level" displayName="Community-Level" codeSystem="urn:www.datim.org:disaggregators:GEND_NORM:ActivityLevel"/>
+    <svs:Concept code="Individual" displayName="Individual" codeSystem="urn:www.datim.org:disaggregators:GEND_NORM:ActivityLevel"/>
+    <svs:Concept code="Small Group" displayName="Small Group" codeSystem="urn:www.datim.org:disaggregators:GEND_NORM:ActivityLevel"/>
+  </svs:ConceptList>
+</svs:ValueSet>
