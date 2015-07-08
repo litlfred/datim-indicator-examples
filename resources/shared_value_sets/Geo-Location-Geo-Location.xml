@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.10610049103887969686711057.10257107116907549804811650" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Geo Location on Geo Location">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="vN9E6kTpBC8" displayName="Urban" codeSystem="urn:www.datim.org:disaggregators:Geo Location:Geo Location"/>
+    <svs:Concept code="okcBrynlBfZ" displayName="Rural" codeSystem="urn:www.datim.org:disaggregators:Geo Location:Geo Location"/>
+  </svs:ConceptList>
+</svs:ValueSet>

@@ -1,0 +1,8 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.8010197113481145679885554.74118718872108851106799112" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Key Populations on Key Populations">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="UjruEYjGK4R" displayName="FSW" codeSystem="urn:www.datim.org:disaggregators:Key Populations:Key Populations"/>
+    <svs:Concept code="G6OYSzplF5a" displayName="Female PWID" codeSystem="urn:www.datim.org:disaggregators:Key Populations:Key Populations"/>
+    <svs:Concept code="wyeCT63FkXB" displayName="Male PWID" codeSystem="urn:www.datim.org:disaggregators:Key Populations:Key Populations"/>
+    <svs:Concept code="kbyXyGDsAf3" displayName="MSM/TG" codeSystem="urn:www.datim.org:disaggregators:Key Populations:Key Populations"/>
+  </svs:ConceptList>
+</svs:ValueSet>

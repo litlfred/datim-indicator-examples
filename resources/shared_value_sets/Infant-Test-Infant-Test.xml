@@ -1,0 +1,7 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.6649751159977489810311686.6610255100997810987718252" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Infant Test on Infant Test">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="ZVBPR91crsR" displayName="Infant Test (first)  between 2 and 12" codeSystem="urn:www.datim.org:disaggregators:Infant Test:Infant Test"/>
+    <svs:Concept code="PmocwFQLC7W" displayName="Infant Test within 2 months of birth" codeSystem="urn:www.datim.org:disaggregators:Infant Test:Infant Test"/>
+    <svs:Concept code="fKvXpupSB8T" displayName="Infant Test Positive Within First Year" codeSystem="urn:www.datim.org:disaggregators:Infant Test:Infant Test"/>
+  </svs:ConceptList>
+</svs:ValueSet>

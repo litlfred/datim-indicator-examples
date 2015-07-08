@@ -1,0 +1,7 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.12298734910550901031209872.107901021005756112785197100" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for HIV Status on HIV Status">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="KM4dyooZHUP" displayName="Positive" codeSystem="urn:www.datim.org:disaggregators:HIV Status:HIV Status"/>
+    <svs:Concept code="Gb0GYkqotaO" displayName="Negative" codeSystem="urn:www.datim.org:disaggregators:HIV Status:HIV Status"/>
+    <svs:Concept code="gUdtLH3fV1m" displayName="Unknown" codeSystem="urn:www.datim.org:disaggregators:HIV Status:HIV Status"/>
+  </svs:ConceptList>
+</svs:ValueSet>

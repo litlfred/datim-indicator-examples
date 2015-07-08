@@ -1,0 +1,24 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.8898865670115861125310998.7050101501151041145310210065" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Line on Line">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="gMluFip74cf" displayName="Line 01" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="BkJZefQpvX3" displayName="Line 02" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="VbUAQjeSVa0" displayName="Line 03" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="fyDo7tXJASy" displayName="Line 04" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="jWP3vLildtW" displayName="Line 05" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="dGNs4XY7BlR" displayName="Line 06" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="nHBEHzSubwj" displayName="Line 07" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="CFDzl0pahtU" displayName="Line 08" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="dGMWo1ZGni1" displayName="Line 09" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="qFKqmUJxxBF" displayName="Line 10" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="LeCnEBPx05o" displayName="Line 11" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="lKocQdZvljF" displayName="Line 12" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="qCyvw5aY6Tb" displayName="Line 13" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="MlBfRjuapn1" displayName="Line 14" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="mXmuhLBygA1" displayName="Line 15" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="GS0d6kI7cxm" displayName="Line 16" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="EzYkN9B6lhE" displayName="Line 17" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="G9D7nC6ZkrJ" displayName="Line 18" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="S6S7QwBjlv2" displayName="Line 19" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+    <svs:Concept code="gEv74Ee3L1o" displayName="Line 20" codeSystem="urn:www.datim.org:disaggregators:Line:Line"/>
+  </svs:ConceptList>
+</svs:ValueSet>

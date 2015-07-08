@@ -1,0 +1,10 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.83905066114865057547790.1029783105744990784811666" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Adverse Event on Adverse Event">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="q0aBsrw9j2F" displayName="Moderate Intra-operative AE" codeSystem="urn:www.datim.org:disaggregators:Adverse Event:Adverse Event"/>
+    <svs:Concept code="F4uzpWFOsun" displayName="Severe Intra-operative AE" codeSystem="urn:www.datim.org:disaggregators:Adverse Event:Adverse Event"/>
+    <svs:Concept code="kN2CdJyKHJb" displayName="Moderate Post-operative AE" codeSystem="urn:www.datim.org:disaggregators:Adverse Event:Adverse Event"/>
+    <svs:Concept code="QuxbK4AUwt7" displayName="Severe Post-operative AE" codeSystem="urn:www.datim.org:disaggregators:Adverse Event:Adverse Event"/>
+    <svs:Concept code="O1VSW7H9hRy" displayName="Moderate Device-related AE" codeSystem="urn:www.datim.org:disaggregators:Adverse Event:Adverse Event"/>
+    <svs:Concept code="jNpWsGQha2v" displayName="Severe Device-related AE" codeSystem="urn:www.datim.org:disaggregators:Adverse Event:Adverse Event"/>
+  </svs:ConceptList>
+</svs:ValueSet>

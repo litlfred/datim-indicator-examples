@@ -1,0 +1,19 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.70101109114111121861125349106.12079521005776811178076117" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Service Delivery Point on Service Delivery Point">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="lCKgLo1v4g7" displayName="Antenatal Clinic" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="FT65hC2yQ29" displayName="Labor &amp; Delivery" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="c2QYBA8hWsg" displayName="Under 5 Clinic" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="GGaEVRTxgTQ" displayName="Maternal and Child Health Clinic" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="B4jQdQ46vfS" displayName="Tuberculosis" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="JoC8aFEIUql" displayName="Sexually Transmitted Infections" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="DUPmXIIbc2k" displayName="Outpatient Department" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="SUlJJwq1fqk" displayName="Inpatient" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="uE0UUMIpIZQ" displayName="HIV Care and Treatment Clinic" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="JyJMM4haTHE" displayName="Voluntary Medical Male Circumcision" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="hRYF2atCjqp" displayName="Voluntary Counseling &amp; Testing co-located" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="GIW4rmHyl4H" displayName="Voluntary Counseling &amp; Testing standalone" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="a2KOzUNehAq" displayName="Mobile" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="v18mqAAqJyg" displayName="Home-based" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+    <svs:Concept code="TVLzgLivDKO" displayName="Other Service Delivery Point" codeSystem="urn:www.datim.org:disaggregators:Service Delivery Point:Service Delivery Point"/>
+  </svs:ConceptList>
+</svs:ValueSet>

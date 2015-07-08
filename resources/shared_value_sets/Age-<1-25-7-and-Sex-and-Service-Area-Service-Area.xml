@@ -1,0 +1,9 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.7981571019053108725650118.7211572567766787210466119" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Age (&lt;1-25+, 7) and Sex and Service Area on Service Area">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="r7nFD6jord0" displayName="Education Support" codeSystem="urn:www.datim.org:disaggregators:Age (&lt;1-25+, 7) and Sex and Service Area:Service Area"/>
+    <svs:Concept code="Jav7cKM4aeK" displayName="Parenting/Caregiver Programs" codeSystem="urn:www.datim.org:disaggregators:Age (&lt;1-25+, 7) and Sex and Service Area:Service Area"/>
+    <svs:Concept code="OzQNMviV1IH" displayName="Social Protection" codeSystem="urn:www.datim.org:disaggregators:Age (&lt;1-25+, 7) and Sex and Service Area:Service Area"/>
+    <svs:Concept code="lVHD6dqnCKf" displayName="Economic Strengthening" codeSystem="urn:www.datim.org:disaggregators:Age (&lt;1-25+, 7) and Sex and Service Area:Service Area"/>
+    <svs:Concept code="X5dUDjdpcvK" displayName="Other Service Areas" codeSystem="urn:www.datim.org:disaggregators:Age (&lt;1-25+, 7) and Sex and Service Area:Service Area"/>
+  </svs:ConceptList>
+</svs:ValueSet>

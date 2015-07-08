@@ -1,0 +1,7 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.1176790101120855110911355109.898274121661017984113118107" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Age (0-25+, 5, 4 yr step), Sex and Activity Level on Activity Level">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="jJGppfIQfBW" displayName="Individual" codeSystem="urn:www.datim.org:disaggregators:Age (0-25+, 5, 4 yr step), Sex and Activity Level:Activity Level"/>
+    <svs:Concept code="wm9HlSwitCk" displayName="Small Group" codeSystem="urn:www.datim.org:disaggregators:Age (0-25+, 5, 4 yr step), Sex and Activity Level:Activity Level"/>
+    <svs:Concept code="tL8kee1RP1w" displayName="Community-Level" codeSystem="urn:www.datim.org:disaggregators:Age (0-25+, 5, 4 yr step), Sex and Activity Level:Activity Level"/>
+  </svs:ConceptList>
+</svs:ValueSet>

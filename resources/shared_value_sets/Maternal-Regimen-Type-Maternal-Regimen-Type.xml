@@ -1,0 +1,9 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.1009010767821177812210175104.9810274895585118571058874" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Maternal Regimen Type on Maternal Regimen Type">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="R7wjUIyQ8OA" displayName="Triple-drug ARV" codeSystem="urn:www.datim.org:disaggregators:Maternal Regimen Type:Maternal Regimen Type"/>
+    <svs:Concept code="m3iRix3uHaP" displayName="AZT" codeSystem="urn:www.datim.org:disaggregators:Maternal Regimen Type:Maternal Regimen Type"/>
+    <svs:Concept code="wlaqfZoPOU4" displayName="Single-dose NVP" codeSystem="urn:www.datim.org:disaggregators:Maternal Regimen Type:Maternal Regimen Type"/>
+    <svs:Concept code="rSKP7Z85FX9" displayName="Life-long ART, Already" codeSystem="urn:www.datim.org:disaggregators:Maternal Regimen Type:Maternal Regimen Type"/>
+    <svs:Concept code="udcRwufEXFQ" displayName="Life-long ART, New" codeSystem="urn:www.datim.org:disaggregators:Maternal Regimen Type:Maternal Regimen Type"/>
+  </svs:ConceptList>
+</svs:ValueSet>

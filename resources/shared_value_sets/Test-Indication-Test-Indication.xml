@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.8487751147388731129774102.827611149751178754986888" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Test Indication on Test Indication">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="rGptWqlhaVU" displayName="Routine" codeSystem="urn:www.datim.org:disaggregators:Test Indication:Test Indication"/>
+    <svs:Concept code="Y53tae7HT6c" displayName="Targeted" codeSystem="urn:www.datim.org:disaggregators:Test Indication:Test Indication"/>
+  </svs:ConceptList>
+</svs:ValueSet>

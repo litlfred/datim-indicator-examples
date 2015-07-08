@@ -1,0 +1,10 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.12051997510973511028510450.11010010149827810276858854" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Age (0-18+, 6) on Age (0-18+, 6)">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="sMBMO5xAq5T" displayName="&lt;1" codeSystem="urn:www.datim.org:disaggregators:Age (0-18+, 6):Age (0-18+, 6)"/>
+    <svs:Concept code="VHpjs9qdLFF" displayName="1-4" codeSystem="urn:www.datim.org:disaggregators:Age (0-18+, 6):Age (0-18+, 6)"/>
+    <svs:Concept code="uUR5Yf4QcT3" displayName="5-14" codeSystem="urn:www.datim.org:disaggregators:Age (0-18+, 6):Age (0-18+, 6)"/>
+    <svs:Concept code="HtpYIYs18ng" displayName="15-17" codeSystem="urn:www.datim.org:disaggregators:Age (0-18+, 6):Age (0-18+, 6)"/>
+    <svs:Concept code="B94yy8Aa8Ib" displayName="&lt;18" codeSystem="urn:www.datim.org:disaggregators:Age (0-18+, 6):Age (0-18+, 6)"/>
+    <svs:Concept code="Q6xWcyHDq6e" displayName="18+" codeSystem="urn:www.datim.org:disaggregators:Age (0-18+, 6):Age (0-18+, 6)"/>
+  </svs:ConceptList>
+</svs:ValueSet>

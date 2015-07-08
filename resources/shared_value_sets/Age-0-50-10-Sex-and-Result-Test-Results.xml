@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.1017211711665741091116612071.70111107711184876678489106" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Age (0-50+, 10), Sex and Result on Test Results">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="KM4dyooZHUP" displayName="Positive" codeSystem="urn:www.datim.org:disaggregators:Age (0-50+, 10), Sex and Result:Test Results"/>
+    <svs:Concept code="Gb0GYkqotaO" displayName="Negative" codeSystem="urn:www.datim.org:disaggregators:Age (0-50+, 10), Sex and Result:Test Results"/>
+  </svs:ConceptList>
+</svs:ValueSet>

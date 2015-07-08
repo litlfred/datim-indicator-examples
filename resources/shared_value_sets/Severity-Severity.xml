@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.80106107120101538610512112080.9783829090112706512210681" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Severity on Severity">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="maajOURZv8I" displayName="Moderate" codeSystem="urn:www.datim.org:disaggregators:Severity:Severity"/>
+    <svs:Concept code="PMBxrkOQtuN" displayName="Severe" codeSystem="urn:www.datim.org:disaggregators:Severity:Severity"/>
+  </svs:ConceptList>
+</svs:ValueSet>

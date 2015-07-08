@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.867798567070757611311076.89486557112516883115102114" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for HIV Commodity on HIV Commodity">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="TbHRfzAhUQD" displayName="ARV Procurement" codeSystem="urn:www.datim.org:disaggregators:HIV Commodity:HIV Commodity"/>
+    <svs:Concept code="LBwZL24mJMS" displayName="Rapid Test Kit Procurement" codeSystem="urn:www.datim.org:disaggregators:HIV Commodity:HIV Commodity"/>
+  </svs:ConceptList>
+</svs:ValueSet>

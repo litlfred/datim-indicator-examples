@@ -1,0 +1,10 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.667268117811189878538453.1057851122734949897586113" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Key Cadres by Graduate Type on Key Cadres">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="njFZbWwkAgA" displayName="Doctors" codeSystem="urn:www.datim.org:disaggregators:Key Cadres by Graduate Type:Key Cadres"/>
+    <svs:Concept code="lPZUo7bwKqj" displayName="Nurses" codeSystem="urn:www.datim.org:disaggregators:Key Cadres by Graduate Type:Key Cadres"/>
+    <svs:Concept code="Y94B9UKq8dM" displayName="Midwives" codeSystem="urn:www.datim.org:disaggregators:Key Cadres by Graduate Type:Key Cadres"/>
+    <svs:Concept code="Ul9A0q3hJ8S" displayName="Lab Professionals" codeSystem="urn:www.datim.org:disaggregators:Key Cadres by Graduate Type:Key Cadres"/>
+    <svs:Concept code="KcNOmcHSFWP" displayName="Social Service Workers" codeSystem="urn:www.datim.org:disaggregators:Key Cadres by Graduate Type:Key Cadres"/>
+    <svs:Concept code="cA2dcMgbJnu" displayName="Other Cadre" codeSystem="urn:www.datim.org:disaggregators:Key Cadres by Graduate Type:Key Cadres"/>
+  </svs:ConceptList>
+</svs:ValueSet>

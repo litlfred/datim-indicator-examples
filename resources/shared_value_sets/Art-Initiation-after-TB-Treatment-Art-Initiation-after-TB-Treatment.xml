@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.671171145470715183100118114.82105807810988122777510670" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Art Initiation after TB Treatment on Art Initiation after TB Treatment">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Hlbk2cJRsHv" displayName="&lt; 8" codeSystem="urn:www.datim.org:disaggregators:Art Initiation after TB Treatment:Art Initiation after TB Treatment"/>
+    <svs:Concept code="obniBwQGwXk" displayName="&gt; 8" codeSystem="urn:www.datim.org:disaggregators:Art Initiation after TB Treatment:Art Initiation after TB Treatment"/>
+  </svs:ConceptList>
+</svs:ValueSet>

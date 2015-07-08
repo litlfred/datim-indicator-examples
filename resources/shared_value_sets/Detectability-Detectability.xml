@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.9799745453121731051136870.73118113120841051171205483106" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Detectability on Detectability">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Y6ofuBlvpNp" displayName="Detectable" codeSystem="urn:www.datim.org:disaggregators:Detectability:Detectability"/>
+    <svs:Concept code="Ee1Jv3c9NSN" displayName="Undetectable" codeSystem="urn:www.datim.org:disaggregators:Detectability:Detectability"/>
+  </svs:ConceptList>
+</svs:ValueSet>

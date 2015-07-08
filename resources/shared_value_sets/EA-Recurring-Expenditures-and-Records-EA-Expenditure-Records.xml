@@ -1,0 +1,24 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.12072111761015010111067102103.98788548100102501151008579" version="2015-04-29T20:52:06" displayName="DATIM disaggregator for EA Recurring Expenditures and Records on EA Expenditure Records">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="FLo6GPjcfBQ" displayName="EA_Record01" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="U1WHnFfVsSl" displayName="EA_Record02" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="UmsaxMsCdnw" displayName="EA_Record03" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="sV1NdiLLoTh" displayName="EA_Record04" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="HZ7XBn6zGP6" displayName="EA_Record05" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="NFqyrsn1KAl" displayName="EA_Record06" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="QBVKhso0KYF" displayName="EA_Record07" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="A96nFfoq5W0" displayName="EA_Record08" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="la6vSvkbBbo" displayName="EA_Record09" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="p6dr9Dt1GBE" displayName="EA_Record10" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="GYDQSslY1m0" displayName="EA_Record11" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="IgmxIW9LMSc" displayName="EA_Record12" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="JaiEyZRmSzS" displayName="EA_Record13" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="kpMkpTwNHLW" displayName="EA_Record14" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="F0c4QujGiJh" displayName="EA_Record15" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="mHd0bsuxD82" displayName="EA_Record16" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="rX3NXoPDwIF" displayName="EA_Record17" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="Mp0iQ2cBtwM" displayName="EA_Record18" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="We3R7As7del" displayName="EA_Record19" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+    <svs:Concept code="roCQBKn3cga" displayName="EA_Record20" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Expenditure Records"/>
+  </svs:ConceptList>
+</svs:ValueSet>

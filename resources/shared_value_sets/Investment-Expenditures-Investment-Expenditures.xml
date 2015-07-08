@@ -1,0 +1,7 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.97689749751018079867981.667255541065278105878087" version="2015-04-30T07:40:41" displayName="DATIM disaggregator for Investment Expenditures on Investment Expenditures">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="YQexwicqyZV" displayName="Training (in-service)" codeSystem="urn:www.datim.org:disaggregators:Investment Expenditures:Investment Expenditures"/>
+    <svs:Concept code="F1fx8SwCpFL" displayName="Construction &amp; renovation" codeSystem="urn:www.datim.org:disaggregators:Investment Expenditures:Investment Expenditures"/>
+    <svs:Concept code="HkyjJfWSo04" displayName="Vehicles" codeSystem="urn:www.datim.org:disaggregators:Investment Expenditures:Investment Expenditures"/>
+  </svs:ConceptList>
+</svs:ValueSet>

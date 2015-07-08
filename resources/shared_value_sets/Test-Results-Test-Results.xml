@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.1098485108121112826690107112.70111107711184876678489106" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Test Results on Test Results">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="KM4dyooZHUP" displayName="Positive" codeSystem="urn:www.datim.org:disaggregators:Test Results:Test Results"/>
+    <svs:Concept code="Gb0GYkqotaO" displayName="Negative" codeSystem="urn:www.datim.org:disaggregators:Test Results:Test Results"/>
+  </svs:ConceptList>
+</svs:ValueSet>

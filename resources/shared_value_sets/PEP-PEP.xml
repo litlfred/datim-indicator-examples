@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.781008611555115122561179870.102776511150847910710857105" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for PEP on PEP">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="q0N6uwNKI2O" displayName="Yes" codeSystem="urn:www.datim.org:disaggregators:PEP:PEP"/>
+    <svs:Concept code="zKHpW5ezSoK" displayName="No" codeSystem="urn:www.datim.org:disaggregators:PEP:PEP"/>
+  </svs:ConceptList>
+</svs:ValueSet>

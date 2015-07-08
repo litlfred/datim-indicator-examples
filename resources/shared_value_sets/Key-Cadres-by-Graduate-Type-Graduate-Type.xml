@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.667268117811189878538453.878551107838881535584110" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Key Cadres by Graduate Type on Graduate Type">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="VnKtt7HjEaX" displayName="Graduates" codeSystem="urn:www.datim.org:disaggregators:Key Cadres by Graduate Type:Graduate Type"/>
+    <svs:Concept code="wocA1WCNRdV" displayName="New Graduates. licensed and registered" codeSystem="urn:www.datim.org:disaggregators:Key Cadres by Graduate Type:Graduate Type"/>
+  </svs:ConceptList>
+</svs:ValueSet>

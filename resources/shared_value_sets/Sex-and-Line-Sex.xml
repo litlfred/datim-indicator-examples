@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.106755154811198498105115115.83697990791051115510255111" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Sex and Line on Sex">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Z1EnpTPaUfq" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:Sex and Line:Sex"/>
+    <svs:Concept code="Qn0I5FbKQOA" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:Sex and Line:Sex"/>
+  </svs:ConceptList>
+</svs:ValueSet>

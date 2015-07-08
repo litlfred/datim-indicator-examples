@@ -1,0 +1,9 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.10370781197812148901115090.879810610611410354117101103106" version="2015-04-05T19:56:37" displayName="DATIM disaggregator for EA Investment Expenditures and Records on EA Investment Expenditures">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="KuziXKobNyK" displayName="EA Training (in-service)" codeSystem="urn:www.datim.org:disaggregators:EA Investment Expenditures and Records:EA Investment Expenditures"/>
+    <svs:Concept code="lc7zqWchK8X" displayName="EA Construction &amp; renovation" codeSystem="urn:www.datim.org:disaggregators:EA Investment Expenditures and Records:EA Investment Expenditures"/>
+    <svs:Concept code="hrhyo2zIBlV" displayName="EA Vehicles" codeSystem="urn:www.datim.org:disaggregators:EA Investment Expenditures and Records:EA Investment Expenditures"/>
+    <svs:Concept code="NixGOQiukd4" displayName="EA Equipment and furniture" codeSystem="urn:www.datim.org:disaggregators:EA Investment Expenditures and Records:EA Investment Expenditures"/>
+    <svs:Concept code="glxOHwQT0Jl" displayName="EA Other investment expenditures" codeSystem="urn:www.datim.org:disaggregators:EA Investment Expenditures and Records:EA Investment Expenditures"/>
+  </svs:ConceptList>
+</svs:ValueSet>

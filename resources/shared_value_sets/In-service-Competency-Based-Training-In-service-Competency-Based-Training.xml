@@ -1,0 +1,9 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.7810057559070731104850115.81541205498113898866100118" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for In-service Competency-Based Training on In-service Competency-Based Training">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="ktyNFxibJtV" displayName="Supply Chain" codeSystem="urn:www.datim.org:disaggregators:In-service Competency-Based Training:In-service Competency-Based Training"/>
+    <svs:Concept code="ffWQBrql959" displayName="Inventory Management" codeSystem="urn:www.datim.org:disaggregators:In-service Competency-Based Training:In-service Competency-Based Training"/>
+    <svs:Concept code="ILgzllrwAx9" displayName="Distribution Plans" codeSystem="urn:www.datim.org:disaggregators:In-service Competency-Based Training:In-service Competency-Based Training"/>
+    <svs:Concept code="zTOLA0wqd1e" displayName="Supportive Supervision" codeSystem="urn:www.datim.org:disaggregators:In-service Competency-Based Training:In-service Competency-Based Training"/>
+    <svs:Concept code="RBOjue1OVsA" displayName="Perform Quantification" codeSystem="urn:www.datim.org:disaggregators:In-service Competency-Based Training:In-service Competency-Based Training"/>
+  </svs:ConceptList>
+</svs:ValueSet>

@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.7981571019053108725650118.83697990791051115510255111" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Age (&lt;1-25+, 7) and Sex and Service Area on Sex">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="Z1EnpTPaUfq" displayName="Female" codeSystem="urn:www.datim.org:disaggregators:Age (&lt;1-25+, 7) and Sex and Service Area:Sex"/>
+    <svs:Concept code="Qn0I5FbKQOA" displayName="Male" codeSystem="urn:www.datim.org:disaggregators:Age (&lt;1-25+, 7) and Sex and Service Area:Sex"/>
+  </svs:ConceptList>
+</svs:ValueSet>

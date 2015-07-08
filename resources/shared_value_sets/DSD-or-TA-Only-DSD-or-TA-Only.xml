@@ -1,0 +1,6 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.77687448101109111561107650.1107757841068510753897979" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for DSD or TA Only on DSD or TA Only">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="S882SdLWZSR" displayName="DSD and TA" codeSystem="urn:www.datim.org:disaggregators:DSD or TA Only:DSD or TA Only"/>
+    <svs:Concept code="Vj88T6U7wyT" displayName="TA Only" codeSystem="urn:www.datim.org:disaggregators:DSD or TA Only:DSD or TA Only"/>
+  </svs:ConceptList>
+</svs:ValueSet>

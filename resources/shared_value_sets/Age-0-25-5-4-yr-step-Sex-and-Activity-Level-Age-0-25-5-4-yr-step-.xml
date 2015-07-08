@@ -1,0 +1,9 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.1176790101120855110911355109.116113887467761167769102119" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Age (0-25+, 5, 4 yr step), Sex and Activity Level on Age (0-25+, 5, 4 yr step)">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="swDN9UgTG9H" displayName="0-9" codeSystem="urn:www.datim.org:disaggregators:Age (0-25+, 5, 4 yr step), Sex and Activity Level:Age (0-25+, 5, 4 yr step)"/>
+    <svs:Concept code="jcGQdcpPSJP" displayName="10-14" codeSystem="urn:www.datim.org:disaggregators:Age (0-25+, 5, 4 yr step), Sex and Activity Level:Age (0-25+, 5, 4 yr step)"/>
+    <svs:Concept code="ttf9eZCHsTU" displayName="15-19" codeSystem="urn:www.datim.org:disaggregators:Age (0-25+, 5, 4 yr step), Sex and Activity Level:Age (0-25+, 5, 4 yr step)"/>
+    <svs:Concept code="GaScV37Kk29" displayName="20-24" codeSystem="urn:www.datim.org:disaggregators:Age (0-25+, 5, 4 yr step), Sex and Activity Level:Age (0-25+, 5, 4 yr step)"/>
+    <svs:Concept code="Gqr7ec6KksO" displayName="25+" codeSystem="urn:www.datim.org:disaggregators:Age (0-25+, 5, 4 yr step), Sex and Activity Level:Age (0-25+, 5, 4 yr step)"/>
+  </svs:ConceptList>
+</svs:ValueSet>

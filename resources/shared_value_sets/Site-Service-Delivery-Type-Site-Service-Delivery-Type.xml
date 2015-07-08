@@ -1,0 +1,7 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.8410682110481201207010353117.1171221057311198971119989103" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Site Service Delivery Type on Site Service Delivery Type">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="C7AssGdzSAm" displayName="PMTCT" codeSystem="urn:www.datim.org:disaggregators:Site Service Delivery Type:Site Service Delivery Type"/>
+    <svs:Concept code="YIh4TSUVajS" displayName="Treatment" codeSystem="urn:www.datim.org:disaggregators:Site Service Delivery Type:Site Service Delivery Type"/>
+    <svs:Concept code="rlu4KoMFnNM" displayName="Care and Support" codeSystem="urn:www.datim.org:disaggregators:Site Service Delivery Type:Site Service Delivery Type"/>
+  </svs:ConceptList>
+</svs:ValueSet>

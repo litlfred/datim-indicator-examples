@@ -1,0 +1,14 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.12072111761015010111067102103.11598116705110580718856115" version="2015-04-05T19:56:42" displayName="DATIM disaggregator for EA Recurring Expenditures and Records on EA Recurrent Expenditures">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="qT2SSoMElr8" displayName="EA Personnel" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="Ui4yiQy94Cl" displayName="EA Antiretroviral drugs (ARVs)" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="aX59sXsNJF9" displayName="EA Non-ARV drugs and reagents" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="hZljwtvHhV7" displayName="EA HIV Test Kits" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="O23V13gXzSv" displayName="EA Condoms" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="rBbJA096r2N" displayName="EA Other supplies" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="YCaAKqhUsAu" displayName="EA Food Supplements" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="UQWEgIknty8" displayName="EA Building rental and Utilities" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="tVMlHW1HDuO" displayName="EA Travel / Transport" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+    <svs:Concept code="uxdJo2eIlYD" displayName="EA Other site recurrent expenditures" codeSystem="urn:www.datim.org:disaggregators:EA Recurring Expenditures and Records:EA Recurrent Expenditures"/>
+  </svs:ConceptList>
+</svs:ValueSet>

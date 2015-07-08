@@ -1,0 +1,9 @@
+<svs:ValueSet xmlns:svs="urn:ihe:iti:svs:2008" id="1.2.3.4.5.7.8.9.118801151215049867410612165.768710356531181101047710352" version="2015-02-19T15:07:37" displayName="DATIM disaggregator for Delivery Site Type on Delivery Site Type">
+  <svs:ConceptList xml:lang="en-US">
+    <svs:Concept code="izzJWLn5Gdo" displayName="Primary Health Care Facility (Public/Private)" codeSystem="urn:www.datim.org:disaggregators:Delivery Site Type:Delivery Site Type"/>
+    <svs:Concept code="i7EB213J3Su" displayName="Satellite Clinic" codeSystem="urn:www.datim.org:disaggregators:Delivery Site Type:Delivery Site Type"/>
+    <svs:Concept code="LvqKMfed0GM" displayName="District Hospital" codeSystem="urn:www.datim.org:disaggregators:Delivery Site Type:Delivery Site Type"/>
+    <svs:Concept code="r2udxYKn2I6" displayName="Secondary Hospital" codeSystem="urn:www.datim.org:disaggregators:Delivery Site Type:Delivery Site Type"/>
+    <svs:Concept code="bTIc01FBtgv" displayName="Tertiary Hospital" codeSystem="urn:www.datim.org:disaggregators:Delivery Site Type:Delivery Site Type"/>
+  </svs:ConceptList>
+</svs:ValueSet>
